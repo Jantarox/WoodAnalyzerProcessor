@@ -1,0 +1,10 @@
+dist/
+build/
+sdist/
+.cache
+__pycache__/
+*.egg-info
+.vscode/
+*.zip
+testing.py
+*.jar

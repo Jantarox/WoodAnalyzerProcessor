@@ -1,0 +1,19 @@
+dataPaths:
+  base: org
+  prediction: pred
+  postprocessed: fin
+  segmentation: seg
+  measurement: measurements
+
+general:
+  patchSize: 128
+  testFoldId: 1
+  totalFoldsNo: 3
+
+prediction:
+  stride: 25
+
+labels:
+  B: 0
+  G: 1
+  R: 2
